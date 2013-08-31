@@ -5,12 +5,18 @@ img {
 	height: auto;
 }
 
+
+
 /* header */
 
 .header {
 	background-color: #f8f8f8;
+	font-size: 1.8em;
 }
 
+.navbar-brand {
+	font-size: 1.3em;
+}
 /* Home-page */
 
 .home-top {
@@ -40,6 +46,16 @@ img {
 	padding: 10px;
 }
 
+.home-module img {
+	padding: 0 10px;
+}
+
+.home-module iframe {
+	max-width: 400px;
+	max-height: 200px;
+	display: block;
+	margin: 0 auto;
+}
 
 /* Judges */
 
