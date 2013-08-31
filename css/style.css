@@ -1,0 +1,53 @@
+/* Site Wide */
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* header */
+
+.header {
+	background-color: #f8f8f8;
+}
+
+/* Home-page */
+
+.home-top {
+	background-color: #d6d7d6;
+
+}
+
+.home-top img{
+	float: right;
+	padding-right: 0px;
+}
+.home-module {
+	background-color: #d6d7d6;
+	margin: 10px 0;
+	padding: 0px;
+} 
+
+.home-module h1{
+	background-color: #7b943a;
+	color: #ffffff;
+	padding: 10px 0;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.home-module ul, p {
+	padding: 10px;
+}
+
+
+/* Judges */
+
+ul.years a {
+			font-size: 2.4em;
+			line-height: 1em;
+}
+
+.films ul {
+	list-style: none;
+}
