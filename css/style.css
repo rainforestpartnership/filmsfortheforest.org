@@ -17,6 +17,19 @@ img {
 .navbar-brand {
 	font-size: 1.3em;
 }
+
+/* footer */
+
+.footer-social img {
+	max-width: 60px;
+	float: right;
+	padding: 10px;
+	padding-right: 0
+}
+
+footer {
+	border-top: 1px solid #eeeeee;
+}
 /* Home-page */
 
 .home-top {
