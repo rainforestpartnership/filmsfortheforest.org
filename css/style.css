@@ -5,7 +5,13 @@ img {
 	height: auto;
 }
 
+a {
+	color: #7b943a;
+}
 
+a:hover {
+	color: #586a29;
+}
 
 /* header */
 
