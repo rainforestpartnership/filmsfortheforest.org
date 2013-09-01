@@ -158,6 +158,10 @@ img.header-logo {
 		width: 300px;
 		height: auto;
 	}
+
+	.home-module {
+		width: 100%;
+	}
 }
 
 @media (max-width: 992px){
