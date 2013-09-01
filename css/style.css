@@ -16,12 +16,40 @@ a:hover {
 /* header */
 
 .header {
-	background-color: #f8f8f8;
 	font-size: 1.8em;
 }
 
-.navbar-brand {
-	font-size: 1.3em;
+.navbar-header .navbar-brand {
+	color: white;
+	background-color: #678822;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.navbar.navbar-static-top {
+	background-color: #F2F4ED;
+	font-size: medium;
+	text-transform: uppercase;
+}
+.nav > li {
+	color: #2E2E2E;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+.nav > li:nth-of-type(1) {
+	background-color: #8CA421;
+}
+.nav > li:nth-of-type(2) {
+	background-color: #AAC252;
+}
+.nav > li:nth-of-type(3) {
+	background-color: #C2D581;
+}
+.nav > li:nth-of-type(4) {
+	background-color: #DAE6B3;
+}
+.nav.navbar-right li {
+	background-color: #7DC3BE;
 }
 
 /* footer */
@@ -41,7 +69,6 @@ footer {
 
 .home-top {
 	background-color: #d6d7d6;
-
 }
 
 .home-top img{
@@ -86,4 +113,8 @@ ul.years a {
 
 .films ul {
 	list-style: none;
+}
+
+img.header-logo {
+	max-height: 100px;
 }
