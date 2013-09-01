@@ -1,5 +1,13 @@
 /* Site Wide */
 
+body {
+	font-family: 'Helvetica-Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .header, .home-module .film-title {
+	font-family: 'Raleway', sans-serif;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
@@ -12,6 +20,8 @@ a {
 a:hover {
 	color: #586a29;
 }
+
+
 
 /* header */
 
