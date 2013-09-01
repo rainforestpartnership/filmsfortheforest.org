@@ -18,6 +18,10 @@ a:hover {
 .header {
 	font-size: 1.8em;
 }
+.header > .container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
 .navbar-header .navbar-brand {
 	color: white;
@@ -81,14 +85,6 @@ footer {
 	padding: 0px;
 } 
 
-.home-module h1{
-	background-color: #7b943a;
-	color: #ffffff;
-	padding: 10px 0;
-	text-align: center;
-	margin-top: 0px;
-}
-
 .home-module ul, p {
 	padding: 10px;
 }
@@ -98,8 +94,8 @@ footer {
 }
 
 .home-module iframe {
-	max-width: 400px;
-	max-height: 200px;
+	max-width: 450px;
+	max-height: 312px;
 	display: block;
 	margin: 0 auto;
 }
@@ -117,4 +113,29 @@ ul.years a {
 
 img.header-logo {
 	max-height: 100px;
+}
+
+.home-module > .film-title {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: normal;
+	background-color: #7b943a;
+	color: #ffffff;
+	padding: 10px 0;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.film-info {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 450px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.film-info > .film-title {
+	font-weight: bold;
+	padding-right: 5px;
 }
