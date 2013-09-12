@@ -3,7 +3,7 @@
 	<head>
 		<!-- Copyright Rainforest Partnership
 		Coded with love by Luke Wright in Austin, Texas -->
-		<title>Films for the Forest</title>
+		<title>Winners | Films for the Forest</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
@@ -134,19 +134,29 @@
 		</div>
 		<script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
 		<script src="../js/bootstrap.min.js"></script>
-			<script>
-			$('ul.years a').click(function(x){
-				x.preventDefault();
-				var link = $(this).attr( 'href' );
-				var navBold = $('ul.years a');
-				var children = $('.films').children();
+		<script>
+		$('ul.years a').click(function(x){
+			x.preventDefault();
+			var link = $(this).attr( 'href' );
+			var navBold = $('ul.years a');
+			var children = $('.films').children();
 
-				$(children).hide();
-				$(link).show();
-				//highlight the current year in menu nav, just a nice touch
-				$(navBold).css('font-weight', 'normal');
-				$(this).css('font-weight', 'bold');
-			});
-			</script>
+			$(children).hide();
+			$(link).show();
+			//highlight the current year in menu nav, just a nice touch
+			$(navBold).css('font-weight', 'normal');
+			$(this).css('font-weight', 'bold');
+		});
+		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-44013803-1', 'filmsfortheforest.org');
+		  ga('send', 'pageview');
+
+		</script>
 	</body>
 </html>
