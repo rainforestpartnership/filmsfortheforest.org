@@ -93,6 +93,8 @@ footer {
 	background-color: #d6d7d6;
 	margin: 10px 0;
 	padding: 0px;
+	font-size: 2em;
+	border-radius: 5px;
 } 
 
 .home-module ul, p {
@@ -103,11 +105,8 @@ footer {
 	padding: 0 10px;
 }
 
-.home-module iframe {
-	max-width: 450px;
-	max-height: 312px;
-	display: block;
-	margin: 0 auto;
+ul.home-list {
+	list-style: none;
 }
 
 /* Judges */
@@ -125,7 +124,7 @@ img.header-logo {
 	max-height: 100px;
 }
 
-.home-module > .film-title {
+.home-module > .home-title {
 	text-transform: uppercase;
 	font-size: 16px;
 	font-weight: normal;
@@ -134,20 +133,6 @@ img.header-logo {
 	padding: 10px 0;
 	text-align: center;
 	margin-top: 0px;
-}
-
-.film-info {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	max-width: 450px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.film-info > .film-title {
-	font-weight: bold;
-	padding-right: 5px;
 }
 
 /* Media Queries */
