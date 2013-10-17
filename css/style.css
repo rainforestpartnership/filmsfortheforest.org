@@ -155,3 +155,10 @@ img.header-logo {
 		font-size: 1em;
 	}
 }
+
+@media (max-width: 440px){
+	.footer-social img {
+		max-width: 50%;
+		padding: 2px;
+	}
+}
