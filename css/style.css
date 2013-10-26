@@ -141,6 +141,16 @@ img.header-logo {
 	margin-top: 0px;
 }
 
+/* Submit page */
+
+.submit-table td, th {
+	padding: 5px;
+	border: 1px solid black;
+}
+
+.submit-table {
+	margin-bottom: 10px;
+}
 /* Media Queries */
 
 @media (max-width: 1200px) {
