@@ -97,6 +97,12 @@ footer {
 	border-radius: 5px;
 } 
 
+.home-module iframe {
+	max-width: 100%;
+	padding: 10px;
+	margin: 0 auto;
+}
+
 .home-module ul, p {
 	padding: 10px;
 }
@@ -138,11 +144,6 @@ img.header-logo {
 /* Media Queries */
 
 @media (max-width: 1200px) {
-	/* keep the youtube videos from overflowing their container */
-	.home-module iframe {
-		width: 300px;
-		height: auto;
-	}
 
 	.home-module {
 		width: 100%;
