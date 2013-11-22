@@ -21,7 +21,9 @@ a:hover {
 	color: #586a29;
 }
 
-
+button a {
+  color: #000;
+}
 
 /* header */
 
