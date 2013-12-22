@@ -157,6 +157,15 @@ img.header-logo {
 .submit-table {
 	margin-bottom: 10px;
 }
+
+/* Sponsor page */
+.sponsor-logos img {
+  /*max-width: 250px;*/ 
+  width: auto;
+  max-height: 150px;
+  display: block;
+  padding-bottom: 5px;
+}
 /* Media Queries */
 
 @media (max-width: 1200px) {
